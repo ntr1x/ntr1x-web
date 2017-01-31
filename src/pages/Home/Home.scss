@@ -10,18 +10,68 @@
     align-items: center;
     justify-content: center;
 
-    .container {
+    .section {
 
         max-width: 50%;
         text-align: center;
         color: #FFFFFF;
 
-        &.container-top {
+        &.section-top {
             align-self: flex-start;
         }
 
-        &.container-bottom {
+        &.section-bottom {
             align-self: flex-end;
+        }
+
+        .technologies {
+            margin-top: 50px;
+        }
+
+        .persons {
+            margin-bottom: 50px;
+        }
+
+        .hire {
+            margin-top: 50px;
+        }
+
+        .btn.btn-primary {
+
+            background: #D8C13A;
+            border-color: #D8C13A;
+            color: #141422;
+            text-decoration: none;
+
+            &:hover {
+                background: #E2D16B;
+                border-color: #E2D16B;
+            }
+        }
+
+        h1 {
+            font-size: 24px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        a.email {
+
+            color: #E0CD61;
+            text-decoration: none;
+            padding: 8px 15px;
+            margin: -8px -15px;
+            border-radius: 4px;
+            display: inline-block;
+
+            &:hover {
+                background-color: rgba(255,255,255,.1);
+            }
         }
     }
 }
